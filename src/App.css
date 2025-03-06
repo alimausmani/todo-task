@@ -23,7 +23,8 @@ body {
 /* Heading */
 h1 {
   color: #333;
-  font-size: 24px;
+  font-size: 38px;
+  font-size: bold;
 }
 
 /* Input Field */
