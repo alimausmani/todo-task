@@ -1,38 +1,76 @@
-.App {
+
+ body{
+  margin: auto;
   text-align: center;
+  margin-top: 6%;
+  background-color: hsl(240, 78%, 66%);
+ }
+
+.main-div{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.add{
+  height: 50px;
+  width: 10%;
+  background-color: blue;
   color: white;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+div input{
+  height: 50px;
+  width: 30%;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  padding-left: 40px;
 }
+
+
+div button{
+  height: 50px;
+  width: 20%;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+
+.delete{
+  margin-left: 40px;
+  height: 50px;
+  width: 15%;
+  position: relative;
+  left: 30%;
+  bottom: 70px;
+}
+
+
+.check-box{
+  height: 20px;
+  width: 30px;
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+
+
+ul li{
+  list-style: none;
+  font-size: 25px;
+  margin-right: 250px;
+}
+
