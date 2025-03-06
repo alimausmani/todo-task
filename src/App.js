@@ -10,18 +10,19 @@ export default function TodoApp() {
 
     // LocalStorage hai browser per data store krega.....
 
-    useEffect(()=>{
-      const storedata =localStorage.getItem("todos");
-    if (storedata){
-      setTodos(JSON.parse(storedata))
-    }
-
-    },[])
-
-    useEffect(()=>{
-      localStorage.setItem("todos", JSON.stringify(todos));
-    },[todos]);
-
+    useEffect(() => {
+      const storedData = localStorage.getItem("todos");
+      if (storedData) {
+        setTodos(JSON.parse(storedData));
+      }
+    }, []);
+    
+    useEffect(() => {
+      if (todos.length > 0) {
+        localStorage.setItem("todos", JSON.stringify(todos));
+      }
+    }, [todos]);
+    
 
     // Add Task ke liye.....
 
