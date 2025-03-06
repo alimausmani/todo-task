@@ -1,68 +1,71 @@
-# Getting Started with Create React App
+✨ Todo App
+![App Preview](public/TodoList.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a sleek and efficient Todo App built with React. It allows users to manage tasks effortlessly while ensuring data persistence using LocalStorage.
 
-## Available Scripts
+🚀 Features
 
-### `npm start`
+✅ Add new tasks
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Mark tasks as completed
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🗑️ Delete tasks
 
-### `npm test`
+🔍 Filter tasks (All & Completed)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💾 Data persistence with LocalStorage
 
-### `npm run build`
+🛠️ Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the Repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ git clone git@github.com:alimausmani/todo-task.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Navigate to the Project Folder:
 
-### `npm run eject`
+cd todo-task
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install Dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the Development Server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
 
-## Learn More
+Your app will be available at http://localhost:3000 🎉
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🏗️ Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+⚛️ React
 
-### Code Splitting
+🎨 CSS (Flexbox for layout)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🌐 JavaScript (ES6+)
 
-### Analyzing the Bundle Size
+💾 LocalStorage for data persistence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📂 Folder Structure
 
-### Making a Progressive Web App
+/ todo-task
+  ├── /public
+  ├── /src
+      ├── /components
+      ├── App.js
+      ├── index.js
+      ├── App.css
+  ├── package.json
+  ├── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🚀 Deployment
 
-### Advanced Configuration
+To deploy the app, build the production files and host them on a platform like Vercel or Netlify.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm run build
 
-### Deployment
+📜 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is open-source and available under the MIT License.
 
-### `npm run build` fails to minify
+Happy Coding! 🎉
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
