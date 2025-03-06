@@ -19,7 +19,7 @@ This is a sleek and efficient Todo App built with React. It allows users to mana
 
 Clone the Repository:
 
- git clone git@github.com:alimausmani/todo-task.git
+git clone git@github.com:alimausmani/todo-task.git
 
 Navigate to the Project Folder:
 
@@ -47,13 +47,15 @@ Your app will be available at http://localhost:3000 🎉
 
 📂 Folder Structure
 
-/ todo-task
-  ├── /public
-  ├── /src
-      ├── /components
-      ├── App.js
-      ├── index.js
-      ├── App.css
+/todo-task
+  ├── public/
+  ├── src/
+  │   ├── components/
+  │   ├── App.js
+  │   ├── index.js
+  │   ├── App.css
+  ├── assets/
+  │   ├── TodoList.png
   ├── package.json
   ├── README.md
 
